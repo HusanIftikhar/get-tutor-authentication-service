@@ -8,9 +8,7 @@ jobs:
   test-workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-        
+      - uses: actions/checkout@v3
       - name: Use Common Workflow
         uses: HusanIftikhar/common-work-flow@master
         with:
