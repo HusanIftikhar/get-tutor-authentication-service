@@ -16,6 +16,6 @@ jobs:
         run: |
           echo "hello world"
       - name: Use Common Workflow
-        uses: HusanIftikhar/common-work-flow.git@master
+        uses: HusanIftikhar/common-work-flow@master
         with:
           workflow-file: '.github/workflows/security-analysis.yaml'
